@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+
+        <input type="text" name="display" id="" disabled>
+
+        <hr>
+
+        <button value="&Sqrt" onclick="display.value=Math.sqrt(display.value)">&Sqrt;</button>
+        <button value="CE" onclick="display.value=''">CE</button>
+        <button value="C" onclick="display.value=''">C</button>
+        <button value="&#8592" onclick="display.value=display.value.slice(0,-1)">&#8592;</button><br>
+
+        <button value="7" onclick="display.value+='7'">7</button>
+        <button value="8" onclick="display.value+='8'">8</button>
+        <button value="9" onclick="display.value+='9'">9</button>
+        <button value="+" onclick="display.value+='+'">+</button><br>
+
+        <button value="4" onclick="display.value+='4'">4</button>
+        <button value="5" onclick="display.value+='5'">5</button>
+        <button value="6" onclick="display.value+='6'">6</button>
+        <button value="-" onclick="display.value+='-'">-</button><br>
+
+        <button value="1" onclick="display.value+='1'">1</button>
+        <button value="2" onclick="display.value+='2'">2</button>
+        <button value="3" onclick="display.value+='3'">3</button>
+        <button value="*" onclick="display.value+='*'">*</button><br>
+
+        <button value="0" onclick="display.value+='0'">0</button>
+        <button value="." onclick="display.value+='.'">.</button>
+        <button value="=" onclick="display.value=eval(display.value)">=</button>
+        <button value="/" onclick="display.value+='/'">/</button>
+
+    </form>
+</body>
+</html>

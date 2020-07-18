@@ -1,0 +1,31 @@
+form{
+    background-color: lightgrey;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    margin-left: 550px;
+    margin-top: 120px;
+}
+input{
+    font-size: 34px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 8px;
+    color: black;
+    text-align: right;
+}
+hr{
+    margin-top: 15px;
+    width: 230px;
+}
+button{
+    font-size: 30px;
+    width: 56px;
+    height: 46px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+   
+}
